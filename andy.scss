@@ -162,7 +162,7 @@ Mixins availables:
 
 @mixin fontsize($size) {
   font-size: $size;
-  font-size: ($size / 16px) * 1rem;
+  font-size: ($size / 16px) * 1em;
 }
 
 /* HARDWARE ACCELERATION */
